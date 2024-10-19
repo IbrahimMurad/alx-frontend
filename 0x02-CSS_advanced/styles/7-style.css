@@ -41,10 +41,12 @@ a {
     color: var(--color-primary);
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: var(--font-weight-bold);
-}
-
-:is(h1, h2, h3, h4, h5, h6):has(:link) {
     font-family: var(--font-family-title);
 }
