@@ -16,13 +16,6 @@ html {
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    /* Set to font-family-base */
-}
-
-/* New declaration for all heading levels before the link declaration */
-:is(h1, h2, h3, h4, h5, h6) {
-    font-family: var(--font-family-title);
-    /* Set to font-family-title */
 }
 
 a {
@@ -36,4 +29,8 @@ a {
 .card-category,
 .section-tagline {
     color: var(--color-primary);
+}
+
+:is(h1, h2, h3, h4, h5, h6):has(+:has(:link)) {
+    font-family: var(--font-family-title);
 }
