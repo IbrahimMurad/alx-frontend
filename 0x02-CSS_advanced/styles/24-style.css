@@ -418,7 +418,7 @@ h6 {
 }
 
 .card-services a {
-    display: block;
+    padding: 2rem;
     background: var(--color-light-grey);
 }
 
