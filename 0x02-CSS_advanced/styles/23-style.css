@@ -397,9 +397,6 @@ h6 {
     padding: var(--footer-padding);
 }
 
-.social-link {
-    display: block;
-}
 
 .social-link>svg {
     fill: var(--text-color);
@@ -409,7 +406,9 @@ h6 {
     text-align: right;
 }
 
-
+.footer-address {
+    color: var(--text-color);
+}
 
 .footer-copyright {
     margin: 0;
