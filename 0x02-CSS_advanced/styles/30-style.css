@@ -381,11 +381,6 @@ h6 {
     content: "";
 }
 
-.card-work .card-title a {
-    display: block;
-    padding-top: 45%;
-    text-decoration: none;
-}
 
 .card-work:hover .card-title {
     opacity: 1;
