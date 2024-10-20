@@ -337,6 +337,10 @@ ul.row {
     color: var(--color-primary);
 }
 
+[data-section-theme="dark"] {
+    background-color: var(--color-black);
+}
+
 .section {
     padding: var(--section-padding);
 }
@@ -371,10 +375,6 @@ ul.row {
     margin: var(--section-tagline-margin);
 }
 
-[data-section-theme="dark"] {
-    background-color: var(--color-black);
-    color: var(--color-white);
-}
 
 .container {
     width: 960px;
