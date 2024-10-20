@@ -352,8 +352,12 @@ h6 {
     vertical-align: bottom;
 }
 
-.card-work .card-inner:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+.card-work .card-inner {
+    position: absolute;
+    top: -0.1rem;
+    left: -0.1rem;
+    right: -0.1rem;
+    z-index: 1;
 }
 
 .card-work .card-title {
