@@ -372,7 +372,7 @@ h6 {
     position: relative;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -381,6 +381,11 @@ h6 {
     content: "";
 }
 
+.card-work .card-title a {
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+}
 
 .card-work:hover .card-title {
     opacity: 1;
