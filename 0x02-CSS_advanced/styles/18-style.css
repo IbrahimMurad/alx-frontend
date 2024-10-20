@@ -238,14 +238,7 @@ body {
 }
 
 .navbar-menu {
-    position: relative;
-}
-
-.nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
+    float: right;
 }
 
 .nav>.nav-item {
