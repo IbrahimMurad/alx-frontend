@@ -237,6 +237,10 @@ body {
     line-height: var(--line-height-base);
 }
 
+.navbar-menu {
+    position: relative;
+}
+
 .nav {
     margin: 0;
     padding: 0;
